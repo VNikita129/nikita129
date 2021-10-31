@@ -6,6 +6,9 @@ class Solution {
  
 int rows = mat.length;
 int columns = mat[0].length;
+        if(rows*columns != r*c)
+            return mat;
+        
 
         int row_arr =0;
         int col_arr =0;
