@@ -27,3 +27,12 @@ HashMap<Integer,Integer> hm = new HashMap<Integer,Integer>();
 
 
     
+
+
+public int singleNumber(int[] nums) {
+    int result = 0;
+    for(int i : nums) {
+        result ^= i;
+    }
+    return result;
+}
